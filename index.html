@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=7.0">
+    <title>Document</title>
+    <link rel="stylesheet"href="style.css">
+</head>
+<body>
+    <div class="calculator">
+    <input type="text" class="inpf" placeholder="Enter value...." id="inputvalue">
+
+<table class="color">
+        <tr>
+            <td onclick="calc('+')">+</td>
+            <td onclick="calc('-')">-</td>
+            <td onclick="calc('*')">x</td>
+            <td onclick="calc('/')">/</td>
+        </tr>
+        <tr>
+            <td onclick="calc(7)" >7</td>
+            <td onclick="calc(8)">8</td>
+            <td onclick="calc(9)">9</td>
+            <td rowspan="2"onclick="result()">=</td>
+        </tr>
+        <tr>
+            <td onclick="calc(4)">4</td>
+            <td onclick="calc(5)">5</td>
+            <td onclick="calc(6)">6</td>
+        </tr>
+        <tr>
+            <td onclick="calc(0)">0</td>
+            <td onclick="calc('.')">.</td>
+            <td onclick="clearone()">DEL</td>
+            <td onclick="clearall()">CA</td>
+        </tr>
+    </table>
+
+</div>
+
+
+
+
+</body>
+<script src="app.js"></script>
+</html>
